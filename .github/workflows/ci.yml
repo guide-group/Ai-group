@@ -2,14 +2,14 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, coding-branch, my-mirror]
     paths-ignore:
       - 'docs/**'
       - '*.md'
       - 'designs/**'
       - 'assets/**'
   pull_request:
-    branches: [main]
+    branches: [main, coding-branch, my-mirror]
     paths-ignore:
       - 'docs/**'
       - '*.md'
